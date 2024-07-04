@@ -68,8 +68,7 @@ start_1month = str(pd.Timestamp.today() + pd.DateOffset(-240))[0:10]
 
 # ----- initialisation de l'API key et ticker -----#
 #api_key = '1KsqKOh1pTAJyWZx6Qm9pvnaNcpKVh_8'
-#api_key = 'q5li8Y5ldvlF7eP8YI7XdMWbyOA3scWJ'
-api_key = 'kkYPpwTzApHfqX8UCHCKt8HQxfh50UpV'
+api_key = 'q5li8Y5ldvlF7eP8YI7XdMWbyOA3scWJ'
 ticker = 'NCNO'
 tiker_live = ticker
 
