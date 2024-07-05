@@ -119,6 +119,8 @@ do
   python3 figure/KALA1.py &
   python3 figure/KALL1.py &
   python3 figure/KALU1.py &
+ sleep 10
+  python3 figure/KALU1.py &
   python3 figure/KALV1.py &
   python3 figure/KAMN1.py &
   python3 figure/KAPR1.py &
@@ -217,6 +219,8 @@ do
   python3 figure/KNSW1.py &
   python3 figure/KNTE1.py &
   python3 figure/KNTK1.py &
+  python3 figure/KNX1.py &
+ sleep 10
   python3 figure/KNX1.py &
   python3 figure/KO1.py &
   python3 figure/KOCG1.py &
@@ -317,6 +321,8 @@ do
   python3 figure/LANDM1.py &
   python3 figure/LANDO1.py &
   python3 figure/LARK1.py &
+ sleep 10
+  python3 figure/LARK1.py &
   python3 figure/LASR1.py &
   python3 figure/LATG1.py &
   python3 figure/LATGU1.py &
@@ -410,13 +416,13 @@ do
   python3 figure/LGST1.py &
   python3 figure/LGSTU1.py &
   python3 figure/LGVC1.py &
- sleep 10
-  python3 figure/LGVC1.py &
   python3 figure/LGVN1.py &
   python3 figure/LH1.py &
   python3 figure/LHC1.py &
   python3 figure/LHX1.py &
   python3 figure/LI1.py &
+  python3 figure/LIAN1.py &
+ sleep 10
   python3 figure/LIAN1.py &
   python3 figure/LIBY1.py &
   python3 figure/LIBYU1.py &
@@ -517,6 +523,8 @@ do
   python3 figure/LSCC1.py &
   python3 figure/LSEA1.py &
   python3 figure/LSF1.py &
+ sleep 10
+  python3 figure/LSF1.py &
   python3 figure/LSI1.py &
   python3 figure/LSPD1.py &
   python3 figure/LSST1.py &
@@ -615,6 +623,8 @@ do
   python3 figure/MAXR1.py &
   python3 figure/MAYS1.py &
   python3 figure/MAYZ1.py &
+  python3 figure/MBAC1.py &
+ sleep 10
   python3 figure/MBAC1.py &
   python3 figure/MBB1.py &
   python3 figure/MBBB1.py &
@@ -715,6 +725,8 @@ do
   python3 figure/MEOA1.py &
   python3 figure/MEOAU1.py &
   python3 figure/MEOH1.py &
+ sleep 10
+  python3 figure/MEOH1.py &
   python3 figure/MERC1.py &
   python3 figure/MESA1.py &
   python3 figure/MESO1.py &
@@ -802,8 +814,6 @@ do
   python3 figure/MITK1.py &
   python3 figure/MITQ1.py &
   python3 figure/MITT1.py &
- sleep 10
-  python3 figure/MITT1.py &
   python3 figure/MIXT1.py &
   python3 figure/MIY1.py &
   python3 figure/MJ1.py &
@@ -815,6 +825,8 @@ do
   python3 figure/MKTW1.py &
   python3 figure/MKTX1.py &
   python3 figure/ML1.py &
+  python3 figure/MLAB1.py &
+ sleep 10
   python3 figure/MLAB1.py &
   python3 figure/MLAC1.py &
   python3 figure/MLACU1.py &
@@ -915,6 +927,8 @@ do
   python3 figure/MPRAU1.py &
   python3 figure/MPRO1.py &
   python3 figure/MPV1.py &
+ sleep 10
+  python3 figure/MPV1.py &
   python3 figure/MPW1.py &
   python3 figure/MPWR1.py &
   python3 figure/MPX1.py &
@@ -1013,6 +1027,8 @@ do
   python3 figure/MUC1.py &
   python3 figure/MUE1.py &
   python3 figure/MUFG1.py &
+  python3 figure/MUI1.py &
+ sleep 10
   python3 figure/MUI1.py &
   python3 figure/MUJ1.py &
   python3 figure/MULN1.py &
@@ -1113,6 +1129,8 @@ do
   python3 figure/NCSM1.py &
   python3 figure/NCTY1.py &
   python3 figure/NCV1.py &
+ sleep 10
+  python3 figure/NCV1.py &
   python3 figure/NCZ1.py &
   python3 figure/NDAQ1.py &
   python3 figure/NDJI1.py &
@@ -1194,8 +1212,6 @@ do
   python3 figure/NIE1.py &
   python3 figure/NIM1.py &
   python3 figure/NIMC1.py &
- sleep 10
-  python3 figure/NIMC1.py &
   python3 figure/NINE1.py &
   python3 figure/NIO1.py &
   python3 figure/NIQ1.py &
@@ -1213,6 +1229,8 @@ do
   python3 figure/NKSH1.py &
   python3 figure/NKTR1.py &
   python3 figure/NKTX1.py &
+  python3 figure/NKX1.py &
+ sleep 10
   python3 figure/NKX1.py &
   python3 figure/NL1.py &
   python3 figure/NLR1.py &
@@ -1313,6 +1331,8 @@ do
   python3 figure/NSTD1.py &
   python3 figure/NSTG1.py &
   python3 figure/NSTS1.py &
+ sleep 10
+  python3 figure/NSTS1.py &
   python3 figure/NSYS1.py &
   python3 figure/NTAP1.py &
   python3 figure/NTB1.py &
@@ -1411,6 +1431,8 @@ do
   python3 figure/NWS1.py &
   python3 figure/NWSA1.py &
   python3 figure/NX1.py &
+  python3 figure/NXC1.py &
+ sleep 10
   python3 figure/NXC1.py &
   python3 figure/NXDT1.py &
   python3 figure/NXE1.py &
@@ -1511,6 +1533,8 @@ do
   python3 figure/OKYO1.py &
   python3 figure/OLB1.py &
   python3 figure/OLED1.py &
+ sleep 10
+  python3 figure/OLED1.py &
   python3 figure/OLIT1.py &
   python3 figure/OLITU1.py &
   python3 figure/OLK1.py &
@@ -1586,8 +1610,6 @@ do
   python3 figure/OPY1.py &
   python3 figure/OR1.py &
   python3 figure/ORA1.py &
- sleep 10
-  python3 figure/ORA1.py &
   python3 figure/ORAN1.py &
   python3 figure/ORC1.py &
   python3 figure/ORCC1.py &
@@ -1611,6 +1633,8 @@ do
   python3 figure/OSCV1.py &
   python3 figure/OSG1.py &
   python3 figure/OSH1.py &
+  python3 figure/OSI1.py &
+ sleep 10
   python3 figure/OSI1.py &
   python3 figure/OSIS1.py &
   python3 figure/OSK1.py &
@@ -1711,6 +1735,8 @@ do
   python3 figure/PAXS1.py &
   python3 figure/PAY1.py &
   python3 figure/PAYC1.py &
+ sleep 10
+  python3 figure/PAYC1.py &
   python3 figure/PAYO1.py &
   python3 figure/PAYS1.py &
   python3 figure/PAYX1.py &
@@ -1809,6 +1835,8 @@ do
   python3 figure/PETS1.py &
   python3 figure/PETV1.py &
   python3 figure/PETZ1.py &
+  python3 figure/PEV1.py &
+ sleep 10
   python3 figure/PEV1.py &
   python3 figure/PEX1.py &
   python3 figure/PEXL1.py &
@@ -1909,6 +1937,8 @@ do
   python3 figure/PILL1.py &
   python3 figure/PIM1.py &
   python3 figure/PIN1.py &
+ sleep 10
+  python3 figure/PIN1.py &
   python3 figure/PINC1.py &
   python3 figure/PINE1.py &
   python3 figure/PINK1.py &
@@ -1978,8 +2008,6 @@ do
   python3 figure/PMGMU1.py &
   python3 figure/PML1.py &
   python3 figure/PMM1.py &
- sleep 10
-  python3 figure/PMM1.py &
   python3 figure/PMN1.py &
   python3 figure/PMO1.py &
   python3 figure/PMT1.py &
@@ -2009,6 +2037,8 @@ do
   python3 figure/POCT1.py &
   python3 figure/PODD1.py &
   python3 figure/POET1.py &
+  python3 figure/POLA1.py &
+ sleep 10
   python3 figure/POLA1.py &
   python3 figure/POOL1.py &
   python3 figure/POR1.py &
@@ -2109,6 +2139,8 @@ do
   python3 figure/PSDN1.py &
   python3 figure/PSEC1.py &
   python3 figure/PSEP1.py &
+ sleep 10
+  python3 figure/PSEP1.py &
   python3 figure/PSET1.py &
   python3 figure/PSF1.py &
   python3 figure/PSFD1.py &
@@ -2207,6 +2239,8 @@ do
   python3 figure/PWUPU1.py &
   python3 figure/PWV1.py &
   python3 figure/PWZ1.py &
+  python3 figure/PX1.py &
+ sleep 10
   python3 figure/PX1.py &
   python3 figure/PXD1.py &
   python3 figure/PXE1.py &
@@ -2307,6 +2341,8 @@ do
   python3 figure/QSR1.py &
   python3 figure/QSWN1.py &
   python3 figure/QTAP1.py &
+ sleep 10
+  python3 figure/QTAP1.py &
   python3 figure/QTEC1.py &
   python3 figure/QTEK1.py &
   python3 figure/QTJA1.py &
@@ -2370,8 +2406,6 @@ do
   python3 figure/RC1.py &
   python3 figure/RCA1.py &
   python3 figure/RCAC1.py &
- sleep 10
-  python3 figure/RCAC1.py &
   python3 figure/RCACU1.py &
   python3 figure/RCAT1.py &
   python3 figure/RCB1.py &
@@ -2407,6 +2441,8 @@ do
   python3 figure/RDVY1.py &
   python3 figure/RDW1.py &
   python3 figure/RDWR1.py &
+  python3 figure/RDY1.py &
+ sleep 10
   python3 figure/RDY1.py &
   python3 figure/RE1.py &
   python3 figure/REAL1.py &
@@ -2507,6 +2543,8 @@ do
   python3 figure/RILYK1.py &
   python3 figure/RILYL1.py &
   python3 figure/RILYM1.py &
+ sleep 10
+  python3 figure/RILYM1.py &
   python3 figure/RILYN1.py &
   python3 figure/RILYO1.py &
   python3 figure/RILYP1.py &
@@ -2605,6 +2643,8 @@ do
   python3 figure/ROSE1.py &
   python3 figure/ROSEU1.py &
   python3 figure/ROSS1.py &
+  python3 figure/ROST1.py &
+ sleep 10
   python3 figure/ROST1.py &
   python3 figure/ROUS1.py &
   python3 figure/ROVR1.py &
@@ -2705,6 +2745,8 @@ do
   python3 figure/SA1.py &
   python3 figure/SAA1.py &
   python3 figure/SABR1.py &
+ sleep 10
+  python3 figure/SABR1.py &
   python3 figure/SABRP1.py &
   python3 figure/SABS1.py &
   python3 figure/SACC1.py &
@@ -2762,8 +2804,6 @@ do
   python3 figure/SBIO1.py &
   python3 figure/SBLK1.py &
   python3 figure/SBNY1.py &
- sleep 10
-  python3 figure/SBNY1.py &
   python3 figure/SBNYP1.py &
   python3 figure/SBOW1.py &
   python3 figure/SBR1.py &
@@ -2805,6 +2845,8 @@ do
   python3 figure/SCHV1.py &
   python3 figure/SCHW1.py &
   python3 figure/SCHX1.py &
+  python3 figure/SCHY1.py &
+ sleep 10
   python3 figure/SCHY1.py &
   python3 figure/SCHZ1.py &
   python3 figure/SCI1.py &
@@ -2905,6 +2947,8 @@ do
   python3 figure/SGA1.py &
   python3 figure/SGBX1.py &
   python3 figure/SGC1.py &
+ sleep 10
+  python3 figure/SGC1.py &
   python3 figure/SGDJ1.py &
   python3 figure/SGDM1.py &
   python3 figure/SGEN1.py &
@@ -3003,6 +3047,8 @@ do
   python3 figure/SJ1.py &
   python3 figure/SJB1.py &
   python3 figure/SJM1.py &
+  python3 figure/SJNK1.py &
+ sleep 10
   python3 figure/SJNK1.py &
   python3 figure/SJR1.py &
   python3 figure/SJT1.py &
@@ -3103,6 +3149,8 @@ do
   python3 figure/SMPL1.py &
   python3 figure/SMR1.py &
   python3 figure/SMRT1.py &
+ sleep 10
+  python3 figure/SMRT1.py &
   python3 figure/SMSI1.py &
   python3 figure/SMTC1.py &
   python3 figure/SMTI1.py &
@@ -3154,8 +3202,6 @@ do
   python3 figure/SOHON1.py &
   python3 figure/SOHOO1.py &
   python3 figure/SOHU1.py &
- sleep 10
-  python3 figure/SOHU1.py &
   python3 figure/SOI1.py &
   python3 figure/SOJC1.py &
   python3 figure/SOJD1.py &
@@ -3203,6 +3249,8 @@ do
   python3 figure/SPEM1.py &
   python3 figure/SPEU1.py &
   python3 figure/SPFF1.py &
+  python3 figure/SPFI1.py &
+ sleep 10
   python3 figure/SPFI1.py &
   python3 figure/SPG1.py &
   python3 figure/SPGI1.py &
@@ -3303,6 +3351,8 @@ do
   python3 figure/SRS1.py &
   python3 figure/SRT1.py &
   python3 figure/SRTS1.py &
+ sleep 10
+  python3 figure/SRTS1.py &
   python3 figure/SRTY1.py &
   python3 figure/SRV1.py &
   python3 figure/SRVR1.py &
@@ -3401,6 +3451,8 @@ do
   python3 figure/SUPL1.py &
   python3 figure/SUPN1.py &
   python3 figure/SUPV1.py &
+  python3 figure/SURF1.py &
+ sleep 10
   python3 figure/SURF1.py &
   python3 figure/SURG1.py &
   python3 figure/SUSA1.py &
@@ -3501,6 +3553,8 @@ do
   python3 figure/TBCPU1.py &
   python3 figure/TBF1.py &
   python3 figure/TBI1.py &
+ sleep 10
+  python3 figure/TBI1.py &
   python3 figure/TBJL1.py &
   python3 figure/TBLA1.py &
   python3 figure/TBLD1.py &
@@ -3545,8 +3599,6 @@ do
   python3 figure/TDOC1.py &
   python3 figure/TDS1.py &
   python3 figure/TDSA1.py &
-  python3 figure/TDSB1.py &
- sleep 10
   python3 figure/TDSB1.py &
   python3 figure/TDSC1.py &
   python3 figure/TDSD1.py &
@@ -3601,6 +3653,8 @@ do
   python3 figure/TGAAU1.py &
   python3 figure/TGAN1.py &
   python3 figure/TGB1.py &
+  python3 figure/TGH1.py &
+ sleep 10
   python3 figure/TGH1.py &
   python3 figure/TGI1.py &
   python3 figure/TGIF1.py &
@@ -3701,6 +3755,8 @@ do
   python3 figure/TMP1.py &
   python3 figure/TMQ1.py &
   python3 figure/TMST1.py &
+ sleep 10
+  python3 figure/TMST1.py &
   python3 figure/TMUS1.py &
   python3 figure/TMV1.py &
   python3 figure/TNA1.py &
@@ -3799,6 +3855,8 @@ do
   python3 figure/TRX1.py &
   python3 figure/TS1.py &
   python3 figure/TSAT1.py &
+  python3 figure/TSBK1.py &
+ sleep 10
   python3 figure/TSBK1.py &
   python3 figure/TSCO1.py &
   python3 figure/TSE1.py &
@@ -3899,6 +3957,8 @@ do
   python3 figure/UBOT1.py &
   python3 figure/UBP1.py &
   python3 figure/UBR1.py &
+ sleep 10
+  python3 figure/UBR1.py &
   python3 figure/UBS1.py &
   python3 figure/UBSI1.py &
   python3 figure/UBT1.py &
@@ -3937,8 +3997,6 @@ do
   python3 figure/UGP1.py &
   python3 figure/UGRO1.py &
   python3 figure/UHAL1.py &
-  python3 figure/UHS1.py &
- sleep 10
   python3 figure/UHS1.py &
   python3 figure/UHT1.py &
   python3 figure/UI1.py &
@@ -3999,6 +4057,8 @@ do
   python3 figure/UPV1.py &
   python3 figure/UPW1.py &
   python3 figure/UPWK1.py &
+  python3 figure/URA1.py &
+ sleep 10
   python3 figure/URA1.py &
   python3 figure/URBN1.py &
   python3 figure/URE1.py &
@@ -4099,6 +4159,8 @@ do
   python3 figure/VALU1.py &
   python3 figure/VAMO1.py &
   python3 figure/VAPO1.py &
+ sleep 10
+  python3 figure/VAPO1.py &
   python3 figure/VAQC1.py &
   python3 figure/VATE1.py &
   python3 figure/VAW1.py &
@@ -4197,6 +4259,8 @@ do
   python3 figure/VIGL1.py &
   python3 figure/VII1.py &
   python3 figure/VINC1.py &
+  python3 figure/VINE1.py &
+ sleep 10
   python3 figure/VINE1.py &
   python3 figure/VINO1.py &
   python3 figure/VINP1.py &
@@ -4297,6 +4361,8 @@ do
   python3 figure/VRAI1.py &
   python3 figure/VRAR1.py &
   python3 figure/VRAY1.py &
+ sleep 10
+  python3 figure/VRAY1.py &
   python3 figure/VRCA1.py &
   python3 figure/VRDN1.py &
   python3 figure/VRE1.py &
@@ -4329,8 +4395,6 @@ do
   python3 figure/VSMV1.py &
   python3 figure/VSS1.py &
   python3 figure/VST1.py &
-  python3 figure/VSTA1.py &
- sleep 10
   python3 figure/VSTA1.py &
   python3 figure/VSTM1.py &
   python3 figure/VSTO1.py &
@@ -4397,6 +4461,8 @@ do
   python3 figure/WAT1.py &
   python3 figure/WATT1.py &
   python3 figure/WAVC1.py &
+  python3 figure/WAVD1.py &
+ sleep 10
   python3 figure/WAVD1.py &
   python3 figure/WAVE1.py &
   python3 figure/WAVS1.py &
@@ -4497,6 +4563,8 @@ do
   python3 figure/WLTG1.py &
   python3 figure/WLTH1.py &
   python3 figure/WLY1.py &
+ sleep 10
+  python3 figure/WLY1.py &
   python3 figure/WLYB1.py &
   python3 figure/WM1.py &
   python3 figure/WMB1.py &
@@ -4595,6 +4663,8 @@ do
   python3 figure/XCEM1.py &
   python3 figure/XCLR1.py &
   python3 figure/XCUR1.py &
+  python3 figure/XDAP1.py &
+ sleep 10
   python3 figure/XDAP1.py &
   python3 figure/XDAT1.py &
   python3 figure/XDEC1.py &
@@ -4695,6 +4765,8 @@ do
   python3 figure/XSW1.py &
   python3 figure/XT1.py &
   python3 figure/XTAP1.py &
+ sleep 10
+  python3 figure/XTAP1.py &
   python3 figure/XTJA1.py &
   python3 figure/XTJL1.py &
   python3 figure/XTL1.py &
@@ -4721,8 +4793,6 @@ do
   python3 figure/YELP1.py &
   python3 figure/YETI1.py &
   python3 figure/YEXT1.py &
-  python3 figure/YGMZ1.py &
- sleep 10
   python3 figure/YGMZ1.py &
   python3 figure/YI1.py &
   python3 figure/YINN1.py &
@@ -4795,6 +4865,8 @@ do
   python3 figure/ZTEK1.py &
   python3 figure/ZTO1.py &
   python3 figure/ZTR1.py &
+  python3 figure/ZTS1.py &
+ sleep 10
   python3 figure/ZTS1.py &
   python3 figure/ZUMZ1.py &
   python3 figure/ZUO1.py &
