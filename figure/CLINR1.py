@@ -529,8 +529,8 @@ def Finder_IETE(time1, time_name1, start1):
                     # ----- condition pour filtrer iete  -----#
                     if I[1] > B and J[
                         1] > F and moyenne_epaule1 <= moyenne_tete / 2 and moyenne_epaule2 <= moyenne_tete / 2 and moyenne_epaule1 >= moyenne_tete / 4 and moyenne_epaule2 >= moyenne_tete / 4 and accept == True and \
-                            df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] - (moyenne_tete) / 6 and \
-                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1] and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete)/6:
+                            df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] - (moyenne_tete*3) / 100 and \
+                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1] and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete*3)/100:
                         # ----- condition pour filtrer iete  -----#
 
                         # ----- systeme de notation des iete en fonction de la beaute et de la perfection de realisation  -----#
@@ -628,12 +628,35 @@ jour = "day"
 # ----- traduction francais anglais pour appel polygon -----#
 
 # ----- enssembles des Process à lancer en meme temps -----#
+#th1 = Process(target=Finder_IETE, args=(15, minute, start_15m))
+#th2 = Process(target=Finder_IETE, args=(20, minute, start_15m))
+#th3 = Process(target=Finder_IETE, args=(30, minute, start_30m))
+#th4 = Process(target=Finder_IETE, args=(1, heure, start_1h))
+#th5 = Process(target=Finder_IETE, args=(2, heure, start_1h))
+#th6 = Process(target=Finder_IETE, args=(4, heure, start_1h))
+
 th1 = Process(target=Finder_IETE, args=(15, minute, start_15m))
 th2 = Process(target=Finder_IETE, args=(20, minute, start_15m))
-th3 = Process(target=Finder_IETE, args=(30, minute, start_30m))
-th4 = Process(target=Finder_IETE, args=(1, heure, start_1h))
-th5 = Process(target=Finder_IETE, args=(2, heure, start_1h))
-th6 = Process(target=Finder_IETE, args=(4, heure, start_1h))
+th3 = Process(target=Finder_IETE, args=(25, minute, start_15m))
+th4 = Process(target=Finder_IETE, args=(30, minute, start_30m))
+th5 = Process(target=Finder_IETE, args=(35, minute, start_30m))
+th6 = Process(target=Finder_IETE, args=(45, minute, start_30m))
+th7 = Process(target=Finder_IETE, args=(1, heure, start_1h))
+th8 = Process(target=Finder_IETE, args=(2, heure, start_1h))
+th9 = Process(target=Finder_IETE, args=(4, heure, start_1h))
+th10 = Process(target=Finder_IETE, args=(40, minute, start_30m))
+th11 = Process(target=Finder_IETE, args=(50, minute, start_30m))
+th12 = Process(target=Finder_IETE, args=(55, minute, start_30m))
+th14 = Process(target=Finder_IETE, args=(75, minute, start_1h))
+th15 = Process(target=Finder_IETE, args=(90, minute, start_1h))
+th16 = Process(target=Finder_IETE, args=(105, minute, start_1h))  # ici nouveau
+th17 = Process(target=Finder_IETE, args=(135, minute, start_1h))
+th18 = Process(target=Finder_IETE, args=(150, minute, start_1h))
+th19 = Process(target=Finder_IETE, args=(165, minute, start_1h))
+th20 = Process(target=Finder_IETE, args=(195, minute, start_1h))
+th21 = Process(target=Finder_IETE, args=(210, minute, start_1h))
+th22 = Process(target=Finder_IETE, args=(225, minute, start_1h))
+th23 = Process(target=Finder_IETE, args=(255, minute, start_1h))
 
 
 th1.start()
@@ -642,7 +665,22 @@ th3.start()
 th4.start()
 th5.start()
 th6.start()
-
+th7.start()
+th8.start()
+th9.start()
+th10.start()
+th11.start()
+th12.start()
+th14.start()
+th15.start()
+th16.start()  # ici nouveau
+th17.start()
+th18.start()
+th19.start()
+th20.start()
+th21.start()
+th22.start()
+th23.start()
 
 th1.join()
 th2.join()
@@ -650,4 +688,19 @@ th3.join()
 th4.join()
 th5.join()
 th6.join()
-
+th7.join()
+th8.join()
+th9.join()
+th10.join()
+th11.join()
+th12.join()
+th14.join()
+th15.join()
+th16.join()  # ici nouveau
+th17.join()
+th18.join()
+th19.join()
+th20.join()
+th21.join()
+th22.join()
+th23.join()
