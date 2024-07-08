@@ -530,7 +530,7 @@ def Finder_IETE(time1, time_name1, start1):
                     if I[1] > B and J[
                         1] > F and moyenne_epaule1 <= moyenne_tete / 2 and moyenne_epaule2 <= moyenne_tete / 2 and moyenne_epaule1 >= moyenne_tete / 4 and moyenne_epaule2 >= moyenne_tete / 4 and accept == True and \
                             df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] - (moyenne_tete*3) / 100 and \
-                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1] and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete*3)/100:
+                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1]: # and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete*3)/100:
                         # ----- condition pour filtrer iete  -----#
 
                         # ----- systeme de notation des iete en fonction de la beaute et de la perfection de realisation  -----#
