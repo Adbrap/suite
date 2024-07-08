@@ -529,8 +529,8 @@ def Finder_IETE(time1, time_name1, start1):
                     # ----- condition pour filtrer iete  -----#
                     if I[1] > B and J[
                         1] > F and moyenne_epaule1 <= moyenne_tete / 2 and moyenne_epaule2 <= moyenne_tete / 2 and moyenne_epaule1 >= moyenne_tete / 4 and moyenne_epaule2 >= moyenne_tete / 4 and accept == True and \
-                            df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] and \
-                            df['c'].index[-2] != local_min[-1] and G >= 1 and J[0] >= local_min[-1]:
+                            df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] - (moyenne_tete) / 6 and \
+                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1] and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete)/6:
                         # ----- condition pour filtrer iete  -----#
 
                         # ----- systeme de notation des iete en fonction de la beaute et de la perfection de realisation  -----#
