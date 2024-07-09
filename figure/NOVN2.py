@@ -192,10 +192,10 @@ def courbe(pourcent_chercher2,tiker_live,time1,time_name1,pourcent_chercher,pour
         target2 = J[1] - ((moyenne_tete*5) / 100)
         button2.on_clicked(lambda event: achat(ticker, target1, target2))
         now = datetime.datetime.now()
-        #fichiers_toilette = filter(lambda x: f"{ticker}" in x, os.listdir('/home/ubuntu/trouvailles'))
-        #if any(fichiers_toilette):
-            #plt.savefig(f'/home/ubuntu/trouvailles/{tiker_live} {time1} {time_name1} {round(J[1] + ((moyenne_tete*30) / 100), 5)} {round(J[1] - ((moyenne_tete*5) / 100), 5)} {jaune} .png')
-        plt.show()
+        recherche = filter(lambda x: f"{ticker}" in x, os.listdir('/home/ubuntu/trouvailles'))
+        if any(recherche):
+            plt.savefig(f'/home/ubuntu/trades/{tiker_live} {time1} {time_name1} {round(J[1] + ((moyenne_tete*30) / 100), 5)} {round(J[1] - ((moyenne_tete*5) / 100), 5)} {jaune} .png')
+        #plt.show()
 
     # ----- creer la figure et l'affichage MATPLOTLIB -----#s
     except:
@@ -529,8 +529,8 @@ def Finder_IETE(time1, time_name1, start1):
                     # ----- condition pour filtrer iete  -----#
                     if I[1] > B and J[
                         1] > F and moyenne_epaule1 <= moyenne_tete / 2 and moyenne_epaule2 <= moyenne_tete / 2 and moyenne_epaule1 >= moyenne_tete / 4 and moyenne_epaule2 >= moyenne_tete / 4 and accept == True and \
-                            df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] - (moyenne_tete) / 7 and \
-                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1] and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete)/7:
+                            df['c'].values[-2] <= J[1] + (moyenne_tete) / 4 and df['c'].values[-2] >= J[1] - (moyenne_tete*3) / 100 and \
+                            df['c'].index[-2] != local_min[-1] and G >= 2 and J[0] >= local_min[-1]: # and df['c'].values[-1] <= J[1] + (moyenne_tete)/4 and df['c'].values[-1] >= J[1] - (moyenne_tete*3)/100:
                         # ----- condition pour filtrer iete  -----#
 
                         # ----- systeme de notation des iete en fonction de la beaute et de la perfection de realisation  -----#
