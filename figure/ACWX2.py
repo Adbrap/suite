@@ -193,7 +193,7 @@ def courbe(pourcent_chercher2,tiker_live,time1,time_name1,pourcent_chercher,pour
         target2 = J[1] - ((moyenne_tete*5) / 100)
         button2.on_clicked(lambda event: achat(ticker, target1, target2))
         now = datetime.datetime.now()
-        recherche = filter(lambda x: f"{ticker}" in x, os.listdir('/home/ubuntu/trouvailles'))
+        recherche = filter(lambda x: f"{ticker}" in x, os.listdir('/home/ubuntu/trades'))
         if any(recherche):
             plt.savefig(f'/home/ubuntu/trades/{tiker_live} {time1} {time_name1} {round(J[1] + ((moyenne_tete*30) / 100), 5)} {round(J[1] - ((moyenne_tete*5) / 100), 5)} {jaune} .png')
         #plt.show()
