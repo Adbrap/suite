@@ -1,5 +1,6 @@
 # ----- initialisation des modules -----#
 import pandas as pd
+import numpy as np
 import numpy
 from tkinter import Tk
 from tkinter import messagebox
@@ -268,7 +269,7 @@ def Finder_IETE(time1, time_name1, start1):
 
         # df = df.drop(columns=['o', 'h', 'l', 'v', 'vw', 'n'])
         # df = df.append({'o': NAN, 'h': NAN, 'l': NAN, 'v': NAN, 'vw': NAN, 'n': NAN, 'c': livePrice, 't': NAN}, ignore_index=True)
-        df_new_line = pd.DataFrame([[NAN, NAN, NAN, NAN, NAN, NAN, livePrice, NAN]],
+        df_new_line = pd.DataFrame([[np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, livePrice, np.nan]],
                                    columns=['o', 'h', 'l', 'v', 'vw', 'n', 'c', 't'])
         df = pd.concat([df, df_new_line], ignore_index=True)
         df_data_date = []
