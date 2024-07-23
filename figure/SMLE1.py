@@ -195,7 +195,7 @@ def courbe(pourcent_chercher2,tiker_live,time1,time_name1,pourcent_chercher,pour
         now = datetime.datetime.now()
         recherche = filter(lambda x: f"{ticker}" in x, os.listdir('/home/ubuntu/trades'))
         if any(recherche):
-            plt.savefig(f'/home/ubuntu/trades/{tiker_live} {time1} {time_name1} {round(J[1] + ((moyenne_tete*30) / 100), 5)} {round(J[1] - ((moyenne_tete*5) / 100), 5)} {jaune} {G} .png')
+            plt.savefig(f'/home/ubuntu/trades/{tiker_live} {time1} {time_name1} {round(J[1] + ((moyenne_tete*30) / 100), 5)} {round(J[1] - ((moyenne_tete*5) / 100), 5)} {jaune} {G} {F} {round(J[1] + ((moyenne_tete*50) / 100), 5)} .png')
         #plt.show()
 
     # ----- creer la figure et l'affichage MATPLOTLIB -----#s
