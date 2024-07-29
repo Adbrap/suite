@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ib = IB()
-ib.connect('192.168.10.118', 7496, clientId=0)
+ib.connect('192.168.10.118', 7496, clientId=148)
 
-tickers = ['AAPL']
+tickers = ['TCEHY']
 for ticker in tickers:
     contract = Stock(ticker, 'SMART', 'USD')
 
