@@ -29,8 +29,8 @@ for ticker in tickers:
     #fig = plt.figure(figsize=(10, 7))
     #plt.plot([], [], ' ')
     #plt.title(
-        f'IETE : {ticker} {market_data.last}',
-        fontweight="bold", color='black')
+        #f'IETE : {ticker} {market_data.last}',
+        #fontweight="bold", color='black')
     #df['close'].plot(color=['blue'], label='Clotures')
     #plt.show()
 

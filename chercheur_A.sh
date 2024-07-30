@@ -49,6 +49,8 @@ do
   python3 figure/ISRG1.py &
   python3 figure/MDLZ1.py &
   python3 figure/PYPL1.py &
+ sleep 30
+  python3 figure/PYPL1.py &
   python3 figure/FISV1.py &
   python3 figure/BIIB1.py &
   python3 figure/ATVI1.py &
@@ -77,6 +79,8 @@ do
   python3 figure/HZO1.py &
   python3 figure/QRVO1.py &
   python3 figure/ZBRA1.py &
+  python3 figure/CZR1.py &
+ sleep 30
   python3 figure/CZR1.py &
   python3 figure/VIV1.py &
   python3 figure/TTWO1.py &
@@ -107,6 +111,8 @@ do
   python3 figure/CLOV1.py &
   python3 figure/SBUX1.py &
   python3 figure/XLNX1.py &
+ sleep 30
+  python3 figure/XLNX1.py &
   python3 figure/BILI1.py &
   python3 figure/NIO1.py &
   python3 figure/ADBE1.py &
@@ -118,8 +124,6 @@ do
   python3 figure/AVGO1.py &
   python3 figure/BIDU1.py &
   python3 figure/BIIB1.py &
-  python3 figure/BMRN1.py &
- sleep 30
   python3 figure/BMRN1.py &
   python3 figure/CDNS1.py &
   python3 figure/CERN1.py &
@@ -137,6 +141,8 @@ do
   python3 figure/FTNT1.py &
   python3 figure/GILD1.py &
   python3 figure/HIMX1.py &
+  python3 figure/ILMN1.py &
+ sleep 30
   python3 figure/ILMN1.py &
   python3 figure/INCY1.py &
   python3 figure/INTC1.py &
@@ -167,6 +173,8 @@ do
   python3 figure/SBUX1.py &
   python3 figure/SGEN1.py &
   python3 figure/SPLK1.py &
+ sleep 30
+  python3 figure/SPLK1.py &
   python3 figure/SQ1.py &
   python3 figure/SWKS1.py &
   python3 figure/TCEHY1.py &
@@ -195,6 +203,8 @@ do
   python3 figure/PLTR1.py &
   python3 figure/RMD1.py &
   python3 figure/QRVO1.py &
+  python3 figure/RGEN1.py &
+ sleep 30
   python3 figure/RGEN1.py &
   python3 figure/ZBRA1.py &
   python3 figure/%launcher%
