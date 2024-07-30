@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ib = IB()
-ib.connect('92.154.106.15', 7496, clientId=70)
+ib.connect('92.154.106.15', 7496, clientId=71)
 
 tickers = ['MELI']
 for ticker in tickers:
@@ -26,12 +26,12 @@ for ticker in tickers:
 
     df = util.df(bars)
     print(df)
-    #fig = plt.figure(figsize=(10, 7))
-    #plt.plot([], [], ' ')
-    #plt.title(
-        #f'IETE : {ticker} {market_data.last}',
-        #fontweight="bold", color='black')
-    #df['close'].plot(color=['blue'], label='Clotures')
-    #plt.show()
+    fig = plt.figure(figsize=(10, 7))
+    plt.plot([], [], ' ')
+    plt.title(
+       f'IETE : {ticker} {market_data.last}',
+       fontweight="bold", color='black')
+    df['close'].plot(color=['blue'], label='Clotures')
+    plt.show()
 
 ib.disconnect()
