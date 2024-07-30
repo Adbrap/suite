@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ib = IB()
-ib.connect('192.168.10.118', 7496, clientId=16)
+ib.connect('92.154.106.15', 7496, clientId=16)
 
 tickers = ['QCOM']
 for ticker in tickers:

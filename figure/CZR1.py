@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ib = IB()
-ib.connect('192.168.10.118', 7496, clientId=160)
+ib.connect('92.154.106.15', 7496, clientId=160)
 
 tickers = ['CZR']
 for ticker in tickers:
